@@ -9,9 +9,11 @@
 var HelloWorld = function() {};
 
 HelloWorld.prototype.hello = function(input) {
-//
-// YOUR CODE GOES HERE
-//
+if(input){
+  var = input+"hello"
+}else{
+  var = "Hello, world"
+}
 };
 
 module.exports = HelloWorld;
